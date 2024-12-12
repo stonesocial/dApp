@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC7UCtaejhq8mRJOtb8T_PsJlzQmnBO0eU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>422361141696</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tech.xdm.stone.dapp</string>
+	<key>PROJECT_ID</key>
+	<string>stone-dapp-4142a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stone-dapp-4142a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:422361141696:ios:b1b207f92e4d6a68bbf825</string>
+</dict>
+</plist>

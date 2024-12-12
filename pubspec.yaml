@@ -1,0 +1,93 @@
+name: dapp
+description: "Base app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  dependencies:
+    path: ../dependencies
+  core:
+    path: ../core
+  desys:
+    path: ../desys
+  ui:
+    path: ../ui
+  stn_wallet:
+    path: ../stn_wallet
+  auth_microapp:
+    path: ../auth_microapp
+  explore_microapp:
+    path: ../explore_microapp
+  user_microapp:
+    path: ../user_microapp
+  post_microapp:
+    path: ../post_microapp
+  wallet_microapp:
+    path: ../wallet_microapp
+  notification_microapp:
+    path: ../notification_microapp
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner:
+  freezed: ^2.5.2
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.4.1
+  flutter_launcher_icons: ^0.13.1
+  mocktail: ^1.0.3
+  flutter_native_splash: ^2.4.2
+  metrics_for_dart_code:
+    git:
+      url: "https://github.com/ladans-io/metrics_for_dart_code"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/image/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/audio/
+    - assets/image/
+    - assets/icon/
+    - assets/json/
+
+  fonts:
+    - family: HelveticaNeue
+      fonts:
+        - asset: fonts/HelveticaNeue/HelveticaNeueBlack.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueBlackItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueBold.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueBoldItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueHeavy.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueHeavyItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueItalic.ttf
+        - asset: fonts/HelveticaNeue/HelveticaNeueLight.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueLightItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueMedium.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueMediumItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueRoman.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueThin.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueThinItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueUltraLight.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeueUltraLightItalic.otf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-ExtraBold.ttf
+        - asset: fonts/Poppins/Poppins-Regular.ttf
