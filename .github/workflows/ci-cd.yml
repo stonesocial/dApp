@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - "master"
+jobs:
+  build:
+    runs-on: [self-hosted, sv-git-actions]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v1
+        with:
+          java-version: "12.x"
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.24.3"
+          channel: "stable"
+      - name: Update KeyStore key password in gradle properties
+        run: sed -i 's/#{KEY_PASSWORD}#/${{ secrets.KEY_PASSWORD }}/g' android/key.properties
+      - run: git config --global --add safe.directory /actions-runner/_work/_tool/flutter/stable-3.19.1-x64
+      - run: flutter clean
+      - run: flutter pub get
+      - run: flutter test
+
+      - run: flutter build apk --release --dart-define-from-file env.prod.json --flavor prod -t lib/main/main_prod.dart --split-per-abi
+
+      - name: upload apk
+        uses: actions/upload-artifact@master
+        with:
+          name: apk
+          path: /actions-runner/_work/dApp/build/app/outputs/flutter-apk/

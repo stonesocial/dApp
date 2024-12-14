@@ -72,7 +72,7 @@ class App extends StatelessWidget with BasisApp, Routing {
                   builder: (context, locale, child) {
                     return MaterialApp(
                       scaffoldMessengerKey: GlobalKeys.scaffoldMessengerKey,
-                      debugShowCheckedModeBanner: Env.isDev,
+                      debugShowCheckedModeBanner: false,
                       title: switch (Env.flavor) {
                         Flavor.prod => 'Stone',
                         Flavor.dev => 'Stone Dev',
