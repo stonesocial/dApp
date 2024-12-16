@@ -239,7 +239,6 @@
   "chinese": "Китайский",
   "russian": "Русский",
   "germany": "Немецкий",
-  "dataNotSynchronized": "Данные не синхронизированы с блокчейном!!\nВаши данные не были синхронизированы с блокчейном из-за недостаточности средств.",
   "solanaAirdropLimitReached": "Достигнут лимит на получение Solana",
   "tryAgainLaterOnWalletMenu": "Попробуйте снова позже в меню кошелька",
   "tryAgainLater": "Попробуйте снова позже",
@@ -248,5 +247,6 @@
   "userUpdatedSuccessfully": "Пользователь успешно обновлён",
   "userDeletedSuccessfully": "Пользователь успешно удалён",
   "welcomeToStone": "Добро пожаловать в Stone",
-  "unableToLoadVideo": "Не удалось загрузить видео"
+  "unableToLoadVideo": "Не удалось загрузить видео",
+  "weCouldNotInitializeYourAccount": "Мы не смогли инициализировать ваш аккаунт. Пожалуйста, попробуйте еще раз."
 }

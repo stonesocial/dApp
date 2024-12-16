@@ -239,7 +239,6 @@
     "chinese": "Chinese",
     "russian": "Russian",
     "germany": "Germany",
-    "dataNotSynchronized": "Data not synchronized on blockchain!!\nYour data was not synchronized to the blockchain due to insufficient funds.",
     "solanaAirdropLimitReached": "Solana airdrop limit reached",
     "tryAgainLaterOnWalletMenu": "Try again later on Wallet menu",
     "tryAgainLater": "Try again later",
@@ -248,5 +247,6 @@
     "userUpdatedSuccessfully": "User updated successfully",
     "userDeletedSuccessfully": "User deleted successfully",
     "welcomeToStone": "Welcome to Stone",
-    "unableToLoadVideo": "Unable to load video"
+    "unableToLoadVideo": "Unable to load video",
+    "weCouldNotInitializeYourAccount": "We couldn't initialize your account. Please try again."
 }

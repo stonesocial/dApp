@@ -239,7 +239,6 @@
   "chinese": "中文",
   "russian": "俄语",
   "germany": "德语",
-  "dataNotSynchronized": "数据未同步到区块链!!\n由于资金不足，您的数据未同步到区块链。",
   "solanaAirdropLimitReached": "已达到 Solana 空投限制",
   "tryAgainLaterOnWalletMenu": "稍后在钱包菜单中重试",
   "tryAgainLater": "请稍后再试",
@@ -248,5 +247,6 @@
   "userUpdatedSuccessfully": "用户更新成功",
   "userDeletedSuccessfully": "用户删除成功",
   "welcomeToStone": "欢迎来到Stone",
-  "unableToLoadVideo": "无法加载视频"
+  "unableToLoadVideo": "无法加载视频",
+  "weCouldNotInitializeYourAccount": "我们无法初始化您的账户。请再试一次。"
 }

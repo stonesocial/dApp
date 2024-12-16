@@ -242,7 +242,6 @@
   "chinese": "Chino",
   "russian": "Ruso",
   "germany": "Alemán",
-  "dataNotSynchronized": "¡Datos no sincronizados en la blockchain!!\nTus datos no se sincronizaron con la blockchain debido a fondos insuficientes.",
   "solanaAirdropLimitReached": "Límite de airdrop de Solana alcanzado",
   "tryAgainLaterOnWalletMenu": "Inténtalo de nuevo más tarde en el menú de la billetera",
   "tryAgainLater": "Inténtalo de nuevo más tarde",
@@ -252,5 +251,6 @@
   "userUpdatedSuccessfully": "Usuario actualizado correctamente",
   "userDeletedSuccessfully": "Usuario eliminado correctamente",
   "welcomeToStone": "Bienvenido a Stone",
-  "unableToLoadVideo": "No se puede cargar el video"
+  "unableToLoadVideo": "No se puede cargar el video",
+  "weCouldNotInitializeYourAccount": "No pudimos inicializar tu cuenta. Por favor, inténtalo de nuevo."
 }
