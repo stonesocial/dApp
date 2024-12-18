@@ -1,7 +1,6 @@
-import 'dart:io';
-
 import 'package:auth_microapp/auth_microapp.dart';
 import 'package:dependencies/dependencies.dart';
+import 'package:desys/desys.dart';
 import 'package:flutter/material.dart';
 import 'package:ui/ui.dart';
 import 'package:user_microapp/user_microapp.dart';
@@ -19,7 +18,7 @@ class Splash extends StatefulWidget {
   final AuthController controller;
   final WalletController walletController;
   final UserController userController;
-  final SplashArgs args;
+  final WrapperArgs args;
 
   @override
   State<Splash> createState() => _SplashState();
@@ -50,24 +49,11 @@ class _SplashState extends State<Splash> with SignInController {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         width: dw(context),
-        padding: EdgeInsets.only(bottom: context.mediaQuery.viewPadding.bottom + (Platform.isAndroid ? 20 : 0)),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            const SizedBox(height: 40),
-            context.logo(size: 60),
-            context.branding()
-          ],
-        ),
+        height: dh(context),
+        child: Center(child: context.brandingIcon()),
       ),
     );
   }
-}
-
-class SplashArgs {
-  final bool fromBackgroundNotification;
-
-  SplashArgs({this.fromBackgroundNotification = false});
 }

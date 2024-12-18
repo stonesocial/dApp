@@ -1,1 +1,1 @@
-flutter build apk --split-per-abi --release -t lib/main/main_prod.dart --dart-define-from-file=../env.dev.json --flavor=dev
+flutter build apk --split-per-abi --release -t lib/main/main_prod.dart --dart-define-from-file=../env.prod.json --flavor=prod

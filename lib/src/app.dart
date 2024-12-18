@@ -1,4 +1,5 @@
 import 'package:auth_microapp/auth_microapp.dart';
+import 'package:dapp/src/splash.dart';
 import 'package:desys/desys.dart';
 import 'package:explore_microapp/explore_microapp.dart';
 import 'package:flutter/material.dart' hide Notification;
@@ -13,8 +14,6 @@ import 'package:wallet_microapp/wallet_microapp.dart';
 
 import '../env/env.dart';
 import '../env/flavor.dart';
-import 'home.dart';
-import 'splash.dart';
 
 class App extends StatelessWidget with BasisApp, Routing {
   App({super.key}) { init(); }
@@ -44,7 +43,7 @@ class App extends StatelessWidget with BasisApp, Routing {
   void _handleReceivedNotification(Notification _) {
     Navigate.to.pushReplacementNamed(
       super.initialRoute,
-      arguments: SplashArgs(fromBackgroundNotification: true),
+      arguments: WrapperArgs(fromBackgroundNotification: true),
     );
   }
 
@@ -113,7 +112,7 @@ class App extends StatelessWidget with BasisApp, Routing {
       controller: locator(),
       walletController: locator(),
       userController: locator(),
-      args: args as SplashArgs? ?? SplashArgs(fromBackgroundNotification: false),
+      args: args as WrapperArgs? ?? WrapperArgs(fromBackgroundNotification: false),
     )),
     Routes.wrapper: BasisRoute(
       (context, args) => NavigatorWrapper(
@@ -125,7 +124,6 @@ class App extends StatelessWidget with BasisApp, Routing {
           getPostsBloc: locator(),
           getCommentsByPostBloc: locator(),
         ),
-
         onGenerateRoute: (routerSettings) => onGenerateRoute(routerSettings, super.nestedRoutes),
       ),
       transitionDuration: Duration.zero,
@@ -137,17 +135,5 @@ class App extends StatelessWidget with BasisApp, Routing {
   Map<String, BasisRoute> get routes => super.registeredRoutes;
 
   @override
-  Map<String, BasisRoute>? get basisNestedRoutes => {
-    Routes.home: BasisRoute(
-      (context, args) => Home(
-        getPostsBloc: locator(),
-        getUserBloc: locator(),
-        userController: locator(),
-        walletController: locator(),
-      ),
-      transitionType: TransitionType.fadeIn,
-      transitionDuration: Duration.zero,
-      reverseTransitionDuration: Duration.zero,
-    ),
-  };
+  Map<String, BasisRoute>? get basisNestedRoutes => {};
 }
