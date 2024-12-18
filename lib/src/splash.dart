@@ -24,12 +24,22 @@ class Splash extends StatefulWidget {
   State<Splash> createState() => _SplashState();
 }
 
-class _SplashState extends State<Splash> with SignInController {
+class _SplashState extends State<Splash> with SignInController, SingleTickerProviderStateMixin {
+
+  late AnimationController _controller;
+  late Animation<double> _animation;
 
   @override
   void initState() {
     init();
+    initAnimation();
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   void init() {
@@ -46,13 +56,30 @@ class _SplashState extends State<Splash> with SignInController {
     );
   }
 
+  initAnimation() {
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1500),
+    );
+
+    _animation = CurvedAnimation(
+      parent: _controller,
+      curve: Curves.easeOut,
+    );
+
+    _controller.forward();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SizedBox(
         width: dw(context),
         height: dh(context),
-        child: Center(child: context.brandingIcon()),
+        child: ScaleTransition(
+          scale: _animation,
+          child: Center(child: context.logo()),
+        ),
       ),
     );
   }
