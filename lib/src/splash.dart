@@ -59,7 +59,7 @@ class _SplashState extends State<Splash> with SignInController, SingleTickerProv
   initAnimation() {
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1500),
+      duration: const Duration(milliseconds: 750),
     );
 
     _animation = CurvedAnimation(
