@@ -248,5 +248,13 @@
   "userDeletedSuccessfully": "Benutzer erfolgreich gelöscht",
   "welcomeToStone": "Willkommen bei Stone",
   "unableToLoadVideo": "Video kann nicht geladen werden",
-  "weCouldNotInitializeYourAccount": "Wir konnten Ihr Konto nicht einrichten. Bitte versuchen Sie es erneut."
+  "weCouldNotInitializeYourAccount": "Wir konnten Ihr Konto nicht einrichten. Bitte versuchen Sie es erneut.",
+  "thisActionIsPermanentAndCannotBeUndone": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft aus allen Aufzeichnungen gelöscht.",
+  "deleteAccount": "Konto löschen",
+  "wishToDeleteYourAccount": "Möchten Sie Ihr Konto löschen?",
+  "clickConfirmIfYouAreSure": "Klicken Sie auf Bestätigen, wenn Sie sicher sind.",
+  "errorDeletingAccount": "Fehler beim Löschen des Kontos",
+  "yourDataWasPermanentlyDeletedFromAllRecords": "Ihre Daten wurden dauerhaft aus allen möglichen Aufzeichnungen gelöscht.",
+  "agree": "Zustimmen",
+  "disagree": "Ablehnen"
 }

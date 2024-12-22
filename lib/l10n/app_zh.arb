@@ -248,5 +248,13 @@
   "userDeletedSuccessfully": "用户删除成功",
   "welcomeToStone": "欢迎来到Stone",
   "unableToLoadVideo": "无法加载视频",
-  "weCouldNotInitializeYourAccount": "我们无法初始化您的账户。请再试一次。"
+  "weCouldNotInitializeYourAccount": "我们无法初始化您的账户。请再试一次。",
+  "thisActionIsPermanentAndCannotBeUndone": "此操作是永久性的，无法撤销。您的所有数据将从所有记录中永久删除。",
+  "deleteAccount": "删除账户",
+  "wishToDeleteYourAccount": "您想删除您的账户吗？",
+  "clickConfirmIfYouAreSure": "如果确定，请点击确认。",
+  "errorDeletingAccount": "删除账户时出错",
+  "yourDataWasPermanentlyDeletedFromAllRecords": "您的数据已从所有可能的记录中永久删除。",
+  "agree": "同意",
+  "disagree": "不同意"
 }

@@ -248,5 +248,13 @@
   "userDeletedSuccessfully": "Пользователь успешно удалён",
   "welcomeToStone": "Добро пожаловать в Stone",
   "unableToLoadVideo": "Не удалось загрузить видео",
-  "weCouldNotInitializeYourAccount": "Мы не смогли инициализировать ваш аккаунт. Пожалуйста, попробуйте еще раз."
+  "weCouldNotInitializeYourAccount": "Мы не смогли инициализировать ваш аккаунт. Пожалуйста, попробуйте еще раз.",
+  "thisActionIsPermanentAndCannotBeUndone": "Это действие является окончательным и не может быть отменено. Все ваши данные будут навсегда удалены из всех записей.",
+  "deleteAccount": "Удалить аккаунт",
+  "wishToDeleteYourAccount": "Вы хотите удалить свой аккаунт?",
+  "clickConfirmIfYouAreSure": "Нажмите «Подтвердить», если вы уверены.",
+  "errorDeletingAccount": "Ошибка при удалении аккаунта",
+  "yourDataWasPermanentlyDeletedFromAllRecords": "Ваши данные были навсегда удалены из всех возможных записей.",
+  "agree": "Согласиться",
+  "disagree": "Не согласиться"
 }

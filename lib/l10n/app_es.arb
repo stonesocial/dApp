@@ -252,5 +252,13 @@
   "userDeletedSuccessfully": "Usuario eliminado correctamente",
   "welcomeToStone": "Bienvenido a Stone",
   "unableToLoadVideo": "No se puede cargar el video",
-  "weCouldNotInitializeYourAccount": "No pudimos inicializar tu cuenta. Por favor, inténtalo de nuevo."
+  "weCouldNotInitializeYourAccount": "No pudimos inicializar tu cuenta. Por favor, inténtalo de nuevo.",
+  "thisActionIsPermanentAndCannotBeUndone": "Esta acción es permanente y no se puede deshacer. Todos sus datos se eliminarán de forma permanente de todos los registros.",
+  "deleteAccount": "Eliminar cuenta",
+  "wishToDeleteYourAccount": "¿Desea eliminar su cuenta?",
+  "clickConfirmIfYouAreSure": "Haga clic en Confirmar si está seguro.",
+  "errorDeletingAccount": "Error al eliminar la cuenta",
+  "yourDataWasPermanentlyDeletedFromAllRecords": "Sus datos fueron eliminados permanentemente de todos los registros posibles.",
+  "agree": "Aceptar",
+  "disagree": "Rechazar"
 }
