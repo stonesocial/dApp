@@ -46,6 +46,29 @@ class _SplashState extends State<Splash> with SignInController, SingleTickerProv
     controller = widget.controller;
     walletController = widget.walletController;
     userController = widget.userController;
+
+    RemoteConfigHelper().init().then((instance) {
+      instance.verifyWalletEnabled();
+      instance.canUpdate(
+        callback: _authenticate,
+        onUpdate: (forceUpdate, current, fresh, playStoreUrl, appleStoreUrl, news) {
+          showAnimatedPopup(
+            AppUpdateDialog(
+              current: current,
+              fresh: fresh,
+              news: news,
+              playStoreUrl: playStoreUrl,
+              appleStoreUrl: appleStoreUrl,
+              forceUpdate: forceUpdate,
+              callback: _authenticate,
+            ),
+          );
+        },
+      );
+    });
+  }
+
+  void _authenticate() {
     Future(
       () async => await authenticate(
         remember: true,
@@ -57,16 +80,8 @@ class _SplashState extends State<Splash> with SignInController, SingleTickerProv
   }
 
   initAnimation() {
-    _controller = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 750),
-    );
-
-    _animation = CurvedAnimation(
-      parent: _controller,
-      curve: Curves.easeOut,
-    );
-
+    _controller = AnimationController(vsync: this, duration: const Duration(milliseconds: 750));
+    _animation = CurvedAnimation(parent: _controller, curve: Curves.easeOut);
     _controller.forward();
   }
 

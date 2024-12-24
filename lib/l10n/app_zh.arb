@@ -249,7 +249,7 @@
   "welcomeToStone": "欢迎来到Stone",
   "unableToLoadVideo": "无法加载视频",
   "weCouldNotInitializeYourAccount": "我们无法初始化您的账户。请再试一次。",
-  "thisActionIsPermanentAndCannotBeUndone": "此操作是永久性的，无法撤销。您的所有数据将从所有记录中永久删除。",
+  "thisActionIsPermanentAndCannotBeUndone": "此操作是永久性的，无法撤销。您的所有数据将从所有可能的记录中永久删除。",
   "deleteAccount": "删除账户",
   "wishToDeleteYourAccount": "您想删除您的账户吗？",
   "clickConfirmIfYouAreSure": "如果确定，请点击确认。",
@@ -260,5 +260,13 @@
   "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "帖子已成功报告给社区进行删除投票。",
   "report": "报告",
   "postReportedToCommunityToVoteForDeletion": "帖子已报告给社区进行删除投票",
-  "dangerZone": "危险区域"
+  "dangerZone": "危险区域",
+  "update": "更新",
+  "performanceImprovements": "性能改进",
+  "newFeatures": "新功能",
+  "bugFixes": "错误修复",
+  "whatIsNew": "更新内容",
+  "aNewVersionIsAvailable": "有新版本可用",
+  "currentVersion": "当前版本",
+  "newVersion": "新版本"
 }

@@ -249,7 +249,7 @@
   "welcomeToStone": "Willkommen bei Stone",
   "unableToLoadVideo": "Video kann nicht geladen werden",
   "weCouldNotInitializeYourAccount": "Wir konnten Ihr Konto nicht einrichten. Bitte versuchen Sie es erneut.",
-  "thisActionIsPermanentAndCannotBeUndone": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft aus allen Aufzeichnungen gelöscht.",
+  "thisActionIsPermanentAndCannotBeUndone": "Diese Aktion ist endgültig und kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft aus allen möglichen Aufzeichnungen gelöscht.",
   "deleteAccount": "Konto löschen",
   "wishToDeleteYourAccount": "Möchten Sie Ihr Konto löschen?",
   "clickConfirmIfYouAreSure": "Klicken Sie auf Bestätigen, wenn Sie sicher sind.",
@@ -260,5 +260,13 @@
   "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "Der Beitrag wurde erfolgreich der Community zur Abstimmung über die Löschung gemeldet.",
   "report": "Melden",
   "postReportedToCommunityToVoteForDeletion": "Beitrag wurde der Community zur Abstimmung über die Löschung gemeldet",
-  "dangerZone": "Gefahrenzone"
+  "dangerZone": "Gefahrenzone",
+  "update": "Aktualisierung",
+  "performanceImprovements": "Leistungsverbesserungen",
+  "newFeatures": "Neue Funktionen",
+  "bugFixes": "Fehlerbehebungen",
+  "whatIsNew": "Was ist neu",
+  "aNewVersionIsAvailable": "Eine neue Version ist verfügbar",
+  "currentVersion": "Aktuelle Version",
+  "newVersion": "Neue Version"
 }

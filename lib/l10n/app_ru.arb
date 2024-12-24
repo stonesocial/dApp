@@ -249,7 +249,7 @@
   "welcomeToStone": "Добро пожаловать в Stone",
   "unableToLoadVideo": "Не удалось загрузить видео",
   "weCouldNotInitializeYourAccount": "Мы не смогли инициализировать ваш аккаунт. Пожалуйста, попробуйте еще раз.",
-  "thisActionIsPermanentAndCannotBeUndone": "Это действие является окончательным и не может быть отменено. Все ваши данные будут навсегда удалены из всех записей.",
+  "thisActionIsPermanentAndCannotBeUndone": "Это действие является окончательным и не может быть отменено. Все ваши данные будут безвозвратно удалены из всех возможных записей.",
   "deleteAccount": "Удалить аккаунт",
   "wishToDeleteYourAccount": "Вы хотите удалить свой аккаунт?",
   "clickConfirmIfYouAreSure": "Нажмите «Подтвердить», если вы уверены.",
@@ -260,5 +260,13 @@
   "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "Пост был успешно отправлен в сообщество для голосования за удаление.",
   "report": "Сообщить",
   "postReportedToCommunityToVoteForDeletion": "Пост отправлен в сообщество для голосования за удаление",
-  "dangerZone": "Опасная зона"
+  "dangerZone": "Опасная зона",
+  "update": "Обновление",
+  "performanceImprovements": "Улучшения производительности",
+  "newFeatures": "Новые функции",
+  "bugFixes": "Исправления ошибок",
+  "whatIsNew": "Что нового",
+  "aNewVersionIsAvailable": "Доступна новая версия",
+  "currentVersion": "Текущая версия",
+  "newVersion": "Новая версия"
 }

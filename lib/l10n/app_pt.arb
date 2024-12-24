@@ -250,7 +250,7 @@
     "welcomeToStone": "Bem-vindo ao Stone",
     "unableToLoadVideo": "Não foi possível carregar o vídeo",
     "weCouldNotInitializeYourAccount": "Não conseguimos inicializar sua conta. Por favor, tente novamente.",
-    "thisActionIsPermanentAndCannotBeUndone": "Esta ação é permanente e não pode ser desfeita. Todos os seus dados serão permanentemente excluídos de todos os registros.",
+    "thisActionIsPermanentAndCannotBeUndone": "Esta ação é permanente e não pode ser desfeita. Todos os seus dados serão excluídos permanentemente de todos os registros possíveis.",
     "deleteAccount": "Excluir conta",
     "wishToDeleteYourAccount": "Deseja excluir sua conta?",
     "clickConfirmIfYouAreSure": "Clique em Confirmar se tiver certeza.",
@@ -261,5 +261,13 @@
     "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "A publicação foi reportada com sucesso à comunidade para uma votação de exclusão.",
     "report": "Reportar",
     "postReportedToCommunityToVoteForDeletion": "Publicação reportada à comunidade para uma votação de exclusão",
-    "dangerZone": "Zona de Perigo"
+    "dangerZone": "Zona de Perigo",
+    "update": "Atualizar",
+    "performanceImprovements": "Melhorias de desempenho",
+    "newFeatures": "Novas funcionalidades",
+    "bugFixes": "Correções de bugs",
+    "whatIsNew": "O que há de novo",
+    "aNewVersionIsAvailable": "Uma nova versão está disponível",
+    "currentVersion": "Versão atual",
+    "newVersion": "Nova versão"
 }

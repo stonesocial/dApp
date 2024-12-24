@@ -249,7 +249,7 @@
     "welcomeToStone": "Welcome to Stone",
     "unableToLoadVideo": "Unable to load video",
     "weCouldNotInitializeYourAccount": "We couldn't initialize your account. Please try again.",
-    "thisActionIsPermanentAndCannotBeUndone": "This action is permanent and cannot be undone. All your data will be permanently deleted from all records.",
+    "thisActionIsPermanentAndCannotBeUndone": "This action is permanent and cannot be undone. All your data will be permanently deleted from all possible records.",
     "deleteAccount": "Delete Account",
     "wishToDeleteYourAccount": "Wish to delete your account?",
     "clickConfirmIfYouAreSure": "Click Confirm if you are sure",
@@ -260,5 +260,13 @@
     "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "The post has been successfully reported to the community for a deletion vote.",
     "report": "Report",
     "postReportedToCommunityToVoteForDeletion": "Post Reported to the community for a deletion vote",
-    "dangerZone": "Danger Zone"
+    "dangerZone": "Danger Zone",
+    "update": "Update",
+    "performanceImprovements": "Performance improvements",
+    "newFeatures": "New features",
+    "bugFixes": "Bug fixes",
+    "whatIsNew": "What is new",
+    "aNewVersionIsAvailable": "A new version is available",
+    "currentVersion": "Current version",
+    "newVersion": "New version"
 }
