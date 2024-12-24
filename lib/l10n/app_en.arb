@@ -256,5 +256,9 @@
     "errorDeletingAccount": "Error deleting account",
     "yourDataWasPermanentlyDeletedFromAllRecords": "Your data was permanently deleted from all possible records.",
     "agree": "Agree",
-    "disagree": "Disagree"
+    "disagree": "Disagree",
+    "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "The post has been successfully reported to the community for a deletion vote.",
+    "report": "Report",
+    "postReportedToCommunityToVoteForDeletion": "Post Reported to the community for a deletion vote",
+    "dangerZone": "Danger Zone"
 }

@@ -256,5 +256,9 @@
   "errorDeletingAccount": "删除账户时出错",
   "yourDataWasPermanentlyDeletedFromAllRecords": "您的数据已从所有可能的记录中永久删除。",
   "agree": "同意",
-  "disagree": "不同意"
+  "disagree": "不同意",
+  "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "帖子已成功报告给社区进行删除投票。",
+  "report": "报告",
+  "postReportedToCommunityToVoteForDeletion": "帖子已报告给社区进行删除投票",
+  "dangerZone": "危险区域"
 }

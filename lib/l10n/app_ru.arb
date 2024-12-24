@@ -256,5 +256,9 @@
   "errorDeletingAccount": "Ошибка при удалении аккаунта",
   "yourDataWasPermanentlyDeletedFromAllRecords": "Ваши данные были навсегда удалены из всех возможных записей.",
   "agree": "Согласиться",
-  "disagree": "Не согласиться"
+  "disagree": "Не согласиться",
+  "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "Пост был успешно отправлен в сообщество для голосования за удаление.",
+  "report": "Сообщить",
+  "postReportedToCommunityToVoteForDeletion": "Пост отправлен в сообщество для голосования за удаление",
+  "dangerZone": "Опасная зона"
 }

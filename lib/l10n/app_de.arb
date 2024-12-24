@@ -256,5 +256,9 @@
   "errorDeletingAccount": "Fehler beim Löschen des Kontos",
   "yourDataWasPermanentlyDeletedFromAllRecords": "Ihre Daten wurden dauerhaft aus allen möglichen Aufzeichnungen gelöscht.",
   "agree": "Zustimmen",
-  "disagree": "Ablehnen"
+  "disagree": "Ablehnen",
+  "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "Der Beitrag wurde erfolgreich der Community zur Abstimmung über die Löschung gemeldet.",
+  "report": "Melden",
+  "postReportedToCommunityToVoteForDeletion": "Beitrag wurde der Community zur Abstimmung über die Löschung gemeldet",
+  "dangerZone": "Gefahrenzone"
 }

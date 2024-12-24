@@ -257,5 +257,9 @@
     "errorDeletingAccount": "Erro ao excluir a conta",
     "yourDataWasPermanentlyDeletedFromAllRecords": "Seus dados foram permanentemente excluídos de todos os registros possíveis.",
     "agree": "Concordar",
-    "disagree": "Discordar"
+    "disagree": "Discordar",
+    "thePostWasSuccessfullyReportedToCommunityToVoteForDeletion": "A publicação foi reportada com sucesso à comunidade para uma votação de exclusão.",
+    "report": "Reportar",
+    "postReportedToCommunityToVoteForDeletion": "Publicação reportada à comunidade para uma votação de exclusão",
+    "dangerZone": "Zona de Perigo"
 }
