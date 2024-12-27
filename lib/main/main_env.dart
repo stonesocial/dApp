@@ -12,10 +12,10 @@ Future<void> mainEnv(Flavor flavor) async {
   runZonedGuarded(
     () async {
       WidgetsFlutterBinding.ensureInitialized();
-      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
       Env.flavor = flavor;
-      FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
+      await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
       await configureDependencies();
+      FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
       runApp(App());
     },
     (error, stack) => FirebaseCrashlytics.instance.recordError(error, stack, fatal: true),

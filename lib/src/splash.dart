@@ -48,10 +48,16 @@ class _SplashState extends State<Splash> with SignInController, SingleTickerProv
     userController = widget.userController;
 
     RemoteConfigHelper().init().then((instance) {
-      instance.verifyWalletEnabled();
-      instance.canUpdate(
+      instance.fetchConfigs(
         callback: _authenticate,
-        onUpdate: (forceUpdate, current, fresh, playStoreUrl, appleStoreUrl, news) {
+        onUpdate: (
+          forceUpdate,
+          current,
+          fresh,
+          playStoreUrl,
+          appleStoreUrl,
+          news,
+        ) {
           showAnimatedPopup(
             AppUpdateDialog(
               current: current,
