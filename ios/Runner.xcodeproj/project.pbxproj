@@ -14,6 +14,7 @@
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		7A2661012CAF43220025B04F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2661002CAF43220025B04F /* GoogleService-Info.plist */; };
 		7A2661022CAF43220025B04F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2661002CAF43220025B04F /* GoogleService-Info.plist */; };
+		7A471DB42D1E3457004D8BDB /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */; };
 		7A5E0B9A2CCDA4CB00666FA1 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7A5E0B992CCDA4CB00666FA1 /* File.txt */; };
 		978EB1E2B6948F05896F4AA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3AEA3646940263589445A1C /* GoogleService-Info.plist */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -300,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A471DB42D1E3457004D8BDB /* Release.xcconfig in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
@@ -438,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n  cp \"${PROJECT_DIR}/Runner/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\nelif [ \"${CONFIGURATION}\" == \"Release\" ]; then\n  cp \"${PROJECT_DIR}/Runner/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

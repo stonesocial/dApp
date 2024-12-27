@@ -1,0 +1,6 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main/main_dev.dart
+FLUTTER_BUILD_MODE=debug
+BUNDLE_NAME=Stone SocialFi Dev
