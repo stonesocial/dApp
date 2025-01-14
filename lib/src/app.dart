@@ -108,26 +108,28 @@ class App extends StatelessWidget with BasisApp, Routing {
 
   @override
   Map<String, BasisRoute> get basisRoutes => {
-    super.initialRoute: BasisRoute((context, args) => Splash(
-      controller: locator(),
-      walletController: locator(),
-      userController: locator(),
-      args: args as WrapperArgs? ?? WrapperArgs(fromBackgroundNotification: false),
-    )),
+    super.initialRoute: BasisRoute(
+      (context, args) => Splash(
+        controller: locator(),
+        walletController: locator(),
+        userController: locator(),
+        args: args as WrapperArgs? ?? WrapperArgs(fromBackgroundNotification: false),
+      ),
+      transitionType: TransitionType.rightToLeft,
+    ),
     Routes.wrapper: BasisRoute(
       (context, args) => NavigatorWrapper(
+        onGenerateRoute: onGenerateRoute,
         bottomBarMain: CreatePostScreen(
           walletController: locator(),
           getUserBloc: locator(),
           postController: locator(),
           userController: locator(),
           getPostsBloc: locator(),
-          getCommentsByPostBloc: locator(),
+          getPostCommentsBloc: locator(),
         ),
-        onGenerateRoute: (routerSettings) => onGenerateRoute(routerSettings, super.nestedRoutes),
       ),
-      transitionDuration: Duration.zero,
-      reverseTransitionDuration: Duration.zero,
+      transitionType: TransitionType.rightToLeft,
     ),
   };
 

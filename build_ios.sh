@@ -1,0 +1,1 @@
+flutter build ios --release -t lib/main/main_prod.dart --dart-define-from-file=../env.prod.json --flavor=prod

@@ -1,2 +1,2 @@
-#pod cache clean --all
+pod cache clean --all
 pod install
