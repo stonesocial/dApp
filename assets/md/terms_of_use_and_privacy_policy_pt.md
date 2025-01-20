@@ -86,7 +86,7 @@ Todas as interações na plataforma Stone são transações registradas em uma b
 
 Os usuários têm controle total sobre seus dados e identidade por meio de suas carteiras blockchain. Suas interações com a plataforma, incluindo publicações, atualizações e atividades de staking, são registradas como transações na blockchain, mas nenhuma informação pessoal está vinculada a essas ações.
 
-**4. Nenhum Compartilhamento de Dados com Terceiros
+**4. Nenhum Compartilhamento de Dados com Terceiros**
 
 Como não coletamos dados dos usuários, nenhuma informação é compartilhada com terceiros para marketing, análises ou qualquer outro propósito.
 
