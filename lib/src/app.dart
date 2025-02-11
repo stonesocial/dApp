@@ -115,7 +115,7 @@ class App extends StatelessWidget with BasisApp, Routing {
         userController: locator(),
         args: args as WrapperArgs? ?? WrapperArgs(fromBackgroundNotification: false),
       ),
-      transitionType: TransitionType.rightToLeft,
+      transitionType: TransitionType.leftToRight,
     ),
     Routes.wrapper: BasisRoute(
       (context, args) => NavigatorWrapper(
@@ -129,7 +129,7 @@ class App extends StatelessWidget with BasisApp, Routing {
           getPostCommentsBloc: locator(),
         ),
       ),
-      transitionType: TransitionType.rightToLeft,
+      transitionType: TransitionType.leftToRight,
     ),
   };
 
