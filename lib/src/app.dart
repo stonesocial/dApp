@@ -35,7 +35,7 @@ class App extends StatelessWidget with BasisApp, Routing {
       notificationFacade.messageListener(
         onLiveMessage: showNotificationAlert,
         onInitialMessage: _handleReceivedNotification,
-        onMessageOpenedApp: _handleReceivedNotification,
+        onMessageOpenedApp: (_) {},
       );
     });
   }

@@ -268,5 +268,6 @@
   "whatIsNew": "更新内容",
   "aNewVersionIsAvailable": "有新版本可用",
   "currentVersion": "当前版本",
-  "newVersion": "新版本"
+  "newVersion": "新版本",
+  "clickAgainToCLoseApp": "再次点击以关闭应用程序"
 }

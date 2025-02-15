@@ -268,5 +268,6 @@
     "whatIsNew": "What is new",
     "aNewVersionIsAvailable": "A new version is available",
     "currentVersion": "Current version",
-    "newVersion": "New version"
+    "newVersion": "New version",
+    "clickAgainToCLoseApp": "Click again to close the application!"
 }
