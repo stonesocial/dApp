@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/ladans.io/fvm/versions/3.29.0/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/ladans.io/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/android/app/.cxx/RelWithDebInfo/5n1h4w4t/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/ladans.io/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/android/app/.cxx/RelWithDebInfo/5n1h4w4t/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

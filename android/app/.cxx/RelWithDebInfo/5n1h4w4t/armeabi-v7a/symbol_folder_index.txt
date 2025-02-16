@@ -1,0 +1,1 @@
+/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/build/app/intermediates/cxx/RelWithDebInfo/5n1h4w4t/obj/armeabi-v7a

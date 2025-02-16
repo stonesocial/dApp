@@ -1,0 +1,2 @@
+/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/android/app/.cxx/Debug/1e1m3v4q/x86_64/CMakeFiles/edit_cache.dir
+/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/android/app/.cxx/Debug/1e1m3v4q/x86_64/CMakeFiles/rebuild_cache.dir

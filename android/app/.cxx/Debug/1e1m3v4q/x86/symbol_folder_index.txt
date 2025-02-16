@@ -1,0 +1,1 @@
+/Users/ladans.io/Projects/stone/stone_dapp/src/dapp/build/app/intermediates/cxx/Debug/1e1m3v4q/obj/x86
